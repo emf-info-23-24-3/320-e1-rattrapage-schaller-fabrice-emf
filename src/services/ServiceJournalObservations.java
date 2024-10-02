@@ -3,6 +3,7 @@ package services;
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Comparator;
 
 import models.Observation;
 
@@ -24,17 +25,10 @@ public class ServiceJournalObservations {
          * @param observation l'observation à ajouter
          */
         public void ajouterObservation(Observation observation) {
-                //
-                //               )        (                 ) (           (         (
-                //            ( /(   *   ))\ )        (  ( /( )\ )        )\ )  (   )\ )
-                //      (   ( )\())` )  /(()/((       )\ )\()|()/(  (    (()/(  )\ (()/(
-                //      )\  )((_)\  ( )(_))(_))\    (((_|(_)\ /(_)) )\    /(_)|((_) /(_))
-                //     ((_)((_)((_)(_(_()|_))((_)   )\___ ((_|_))_ ((_)  (_)) )\___(_))
-                //     __   _____ _____ ___ ___    ___ ___  ___  ___   ___ ___ ___   _
-                //     \ \ / / _ \_   _| _ \ __|  / __/ _ \|   \| __| |_ _/ __|_ _| | |
-                //      \ V / (_) || | |   / _|  | (_| (_) | |) | _|   | | (__ | |  |_|
-                //       \_/ \___/ |_| |_|_\___|  \___\___/|___/|___| |___\___|___| (_)
-                //
+                if (observation != null) {
+                        listeObservations.add(observation);
+                }
+
         }
 
         /**
@@ -44,17 +38,15 @@ public class ServiceJournalObservations {
          * @return la liste des observations
          */
         public ArrayList<Observation> getListObservations() {
-                //
-                //               )        (                 ) (           (         (
-                //            ( /(   *   ))\ )        (  ( /( )\ )        )\ )  (   )\ )
-                //      (   ( )\())` )  /(()/((       )\ )\()|()/(  (    (()/(  )\ (()/(
-                //      )\  )((_)\  ( )(_))(_))\    (((_|(_)\ /(_)) )\    /(_)|((_) /(_))
-                //     ((_)((_)((_)(_(_()|_))((_)   )\___ ((_|_))_ ((_)  (_)) )\___(_))
-                //     __   _____ _____ ___ ___    ___ ___  ___  ___   ___ ___ ___   _
-                //     \ \ / / _ \_   _| _ \ __|  / __/ _ \|   \| __| |_ _/ __|_ _| | |
-                //      \ V / (_) || | |   / _|  | (_| (_) | |) | _|   | | (__ | |  |_|
-                //       \_/ \___/ |_| |_|_\___|  \___\___/|___/|___| |___\___|___| (_)
-                //
+                ArrayList<Observation> newList = new ArrayList<>();
+
+                Collections.sort(newList, new Comparator<Observation>() {
+                        @Override
+                        public int compare(Observation ob1, Observation ob2) {
+                                return (ob1.getDate().compareTo(ob2.getDate()) * -1);
+                        }
+                });
+                return newList;
         }
 
         private void chargerObservationsExistantes() {

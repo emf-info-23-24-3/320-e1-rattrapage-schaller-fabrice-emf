@@ -1,0 +1,524 @@
+==== CONFIGS ====		
+{
+    "base_path": "c:\\Temp\\320\\320-e1-rattrapage-schaller-fabrice-emf",
+    "out": "c:\\Temp\\320\\320-e1-rattrapage-schaller-fabrice-emf\\javadoc",
+    "javadoc_executable": "C:\\Program Files\\Java\\jdk-21\\bin\\javadoc.exe",
+    "exclude": [
+        "ServiceFormatageNomOiseauTest"
+    ],
+    "raw_params": " -encoding UTF-8 -charset UTF-8 "
+}
+
+==== COMMAND ====
+"C:\Program Files\Java\jdk-21\bin\javadoc.exe" 
+	-sourcepath "c:\Temp\320\320-e1-rattrapage-schaller-fabrice-emf" 
+	-d "c:\Temp\320\320-e1-rattrapage-schaller-fabrice-emf\javadoc" 
+	 -encoding UTF-8 -charset UTF-8 
+	"c:\Temp\320\320-e1-rattrapage-schaller-fabrice-emf\src\app\Application.java"
+	"c:\Temp\320\320-e1-rattrapage-schaller-fabrice-emf\src\ctrl\Controller.java"
+	"c:\Temp\320\320-e1-rattrapage-schaller-fabrice-emf\src\ctrl\IControllerForView.java"
+	"c:\Temp\320\320-e1-rattrapage-schaller-fabrice-emf\src\models\Caracteristiques.java"
+	"c:\Temp\320\320-e1-rattrapage-schaller-fabrice-emf\src\models\CriteresIdentification.java"
+	"c:\Temp\320\320-e1-rattrapage-schaller-fabrice-emf\src\models\Espece.java"
+	"c:\Temp\320\320-e1-rattrapage-schaller-fabrice-emf\src\models\EspeceDetail.java"
+	"c:\Temp\320\320-e1-rattrapage-schaller-fabrice-emf\src\models\IEspeceInfo.java"
+	"c:\Temp\320\320-e1-rattrapage-schaller-fabrice-emf\src\models\ImageSource.java"
+	"c:\Temp\320\320-e1-rattrapage-schaller-fabrice-emf\src\models\Observation.java"
+	"c:\Temp\320\320-e1-rattrapage-schaller-fabrice-emf\src\models\ObservationBase.java"
+	"c:\Temp\320\320-e1-rattrapage-schaller-fabrice-emf\src\models\Population.java"
+	"c:\Temp\320\320-e1-rattrapage-schaller-fabrice-emf\src\models\StatutDeMenace.java"
+	"c:\Temp\320\320-e1-rattrapage-schaller-fabrice-emf\src\services\ServiceChargementEspeces.java"
+	"c:\Temp\320\320-e1-rattrapage-schaller-fabrice-emf\src\services\ServiceFormatageDate.java"
+	"c:\Temp\320\320-e1-rattrapage-schaller-fabrice-emf\src\services\ServiceFormatageNomOiseau.java"
+	"c:\Temp\320\320-e1-rattrapage-schaller-fabrice-emf\src\services\ServiceIndexationEspeces.java"
+	"c:\Temp\320\320-e1-rattrapage-schaller-fabrice-emf\src\services\ServiceIndexationObservations.java"
+	"c:\Temp\320\320-e1-rattrapage-schaller-fabrice-emf\src\services\ServiceJournalObservations.java"
+	"c:\Temp\320\320-e1-rattrapage-schaller-fabrice-emf\src\services\ServiceTriEspeces.java"
+	"c:\Temp\320\320-e1-rattrapage-schaller-fabrice-emf\src\views\IViewForController.java"
+	"c:\Temp\320\320-e1-rattrapage-schaller-fabrice-emf\src\views\View.java"
+
+
+==== JAVADOC OUTPUT ====
+Quelldatei c:\Temp\320\320-e1-rattrapage-schaller-fabrice-emf\src\app\Application.java wird geladen...
+Quelldatei c:\Temp\320\320-e1-rattrapage-schaller-fabrice-emf\src\ctrl\Controller.java wird geladen...
+Quelldatei c:\Temp\320\320-e1-rattrapage-schaller-fabrice-emf\src\ctrl\IControllerForView.java wird geladen...
+Quelldatei c:\Temp\320\320-e1-rattrapage-schaller-fabrice-emf\src\models\Caracteristiques.java wird geladen...
+Quelldatei c:\Temp\320\320-e1-rattrapage-schaller-fabrice-emf\src\models\CriteresIdentification.java wird geladen...
+Quelldatei c:\Temp\320\320-e1-rattrapage-schaller-fabrice-emf\src\models\Espece.java wird geladen...
+Quelldatei c:\Temp\320\320-e1-rattrapage-schaller-fabrice-emf\src\models\EspeceDetail.java wird geladen...
+Quelldatei c:\Temp\320\320-e1-rattrapage-schaller-fabrice-emf\src\models\IEspeceInfo.java wird geladen...
+Quelldatei c:\Temp\320\320-e1-rattrapage-schaller-fabrice-emf\src\models\ImageSource.java wird geladen...
+Quelldatei c:\Temp\320\320-e1-rattrapage-schaller-fabrice-emf\src\models\Observation.java wird geladen...
+Quelldatei c:\Temp\320\320-e1-rattrapage-schaller-fabrice-emf\src\models\ObservationBase.java wird geladen...
+Quelldatei c:\Temp\320\320-e1-rattrapage-schaller-fabrice-emf\src\models\Population.java wird geladen...
+Quelldatei c:\Temp\320\320-e1-rattrapage-schaller-fabrice-emf\src\models\StatutDeMenace.java wird geladen...
+Quelldatei c:\Temp\320\320-e1-rattrapage-schaller-fabrice-emf\src\services\ServiceChargementEspeces.java wird geladen...
+Quelldatei c:\Temp\320\320-e1-rattrapage-schaller-fabrice-emf\src\services\ServiceFormatageDate.java wird geladen...
+Quelldatei c:\Temp\320\320-e1-rattrapage-schaller-fabrice-emf\src\services\ServiceFormatageNomOiseau.java wird geladen...
+Quelldatei c:\Temp\320\320-e1-rattrapage-schaller-fabrice-emf\src\services\ServiceIndexationEspeces.java wird geladen...
+Quelldatei c:\Temp\320\320-e1-rattrapage-schaller-fabrice-emf\src\services\ServiceIndexationObservations.java wird geladen...
+Quelldatei c:\Temp\320\320-e1-rattrapage-schaller-fabrice-emf\src\services\ServiceJournalObservations.java wird geladen...
+Quelldatei c:\Temp\320\320-e1-rattrapage-schaller-fabrice-emf\src\services\ServiceTriEspeces.java wird geladen...
+Quelldatei c:\Temp\320\320-e1-rattrapage-schaller-fabrice-emf\src\views\IViewForController.java wird geladen...
+Quelldatei c:\Temp\320\320-e1-rattrapage-schaller-fabrice-emf\src\views\View.java wird geladen...
+Javadoc-Informationen werden erstellt...
+c:\Temp\320\320-e1-rattrapage-schaller-fabrice-emf\src\views\View.java:13: Fehler: Package javafx.application ist nicht vorhanden
+import javafx.application.Platform;
+                         ^
+c:\Temp\320\320-e1-rattrapage-schaller-fabrice-emf\src\views\View.java:14: Fehler: Package javafx.event ist nicht vorhanden
+import javafx.event.ActionEvent;
+                   ^
+c:\Temp\320\320-e1-rattrapage-schaller-fabrice-emf\src\views\View.java:15: Fehler: Package javafx.fxml ist nicht vorhanden
+import javafx.fxml.FXML;
+                  ^
+c:\Temp\320\320-e1-rattrapage-schaller-fabrice-emf\src\views\View.java:16: Fehler: Package javafx.fxml ist nicht vorhanden
+import javafx.fxml.FXMLLoader;
+                  ^
+c:\Temp\320\320-e1-rattrapage-schaller-fabrice-emf\src\views\View.java:17: Fehler: Package javafx.fxml ist nicht vorhanden
+import javafx.fxml.Initializable;
+                  ^
+c:\Temp\320\320-e1-rattrapage-schaller-fabrice-emf\src\views\View.java:18: Fehler: Package javafx.scene ist nicht vorhanden
+import javafx.scene.Parent;
+                   ^
+c:\Temp\320\320-e1-rattrapage-schaller-fabrice-emf\src\views\View.java:19: Fehler: Package javafx.scene ist nicht vorhanden
+import javafx.scene.Scene;
+                   ^
+c:\Temp\320\320-e1-rattrapage-schaller-fabrice-emf\src\views\View.java:20: Fehler: Package javafx.scene.control ist nicht vorhanden
+import javafx.scene.control.Alert;
+                           ^
+c:\Temp\320\320-e1-rattrapage-schaller-fabrice-emf\src\views\View.java:21: Fehler: Package javafx.scene.control ist nicht vorhanden
+import javafx.scene.control.Button;
+                           ^
+c:\Temp\320\320-e1-rattrapage-schaller-fabrice-emf\src\views\View.java:22: Fehler: Package javafx.scene.control ist nicht vorhanden
+import javafx.scene.control.ButtonType;
+                           ^
+c:\Temp\320\320-e1-rattrapage-schaller-fabrice-emf\src\views\View.java:23: Fehler: Package javafx.scene.control ist nicht vorhanden
+import javafx.scene.control.CheckBox;
+                           ^
+c:\Temp\320\320-e1-rattrapage-schaller-fabrice-emf\src\views\View.java:24: Fehler: Package javafx.scene.control ist nicht vorhanden
+import javafx.scene.control.ComboBox;
+                           ^
+c:\Temp\320\320-e1-rattrapage-schaller-fabrice-emf\src\views\View.java:25: Fehler: Package javafx.scene.control ist nicht vorhanden
+import javafx.scene.control.DatePicker;
+                           ^
+c:\Temp\320\320-e1-rattrapage-schaller-fabrice-emf\src\views\View.java:26: Fehler: Package javafx.scene.control ist nicht vorhanden
+import javafx.scene.control.Label;
+                           ^
+c:\Temp\320\320-e1-rattrapage-schaller-fabrice-emf\src\views\View.java:27: Fehler: Package javafx.scene.control ist nicht vorhanden
+import javafx.scene.control.ListView;
+                           ^
+c:\Temp\320\320-e1-rattrapage-schaller-fabrice-emf\src\views\View.java:28: Fehler: Package javafx.scene.control ist nicht vorhanden
+import javafx.scene.control.TextArea;
+                           ^
+c:\Temp\320\320-e1-rattrapage-schaller-fabrice-emf\src\views\View.java:29: Fehler: Package javafx.scene.control ist nicht vorhanden
+import javafx.scene.control.TextField;
+                           ^
+c:\Temp\320\320-e1-rattrapage-schaller-fabrice-emf\src\views\View.java:30: Fehler: Package javafx.scene.image ist nicht vorhanden
+import javafx.scene.image.Image;
+                         ^
+c:\Temp\320\320-e1-rattrapage-schaller-fabrice-emf\src\views\View.java:31: Fehler: Package javafx.scene.image ist nicht vorhanden
+import javafx.scene.image.ImageView;
+                         ^
+c:\Temp\320\320-e1-rattrapage-schaller-fabrice-emf\src\views\View.java:32: Fehler: Package javafx.scene.layout ist nicht vorhanden
+import javafx.scene.layout.GridPane;
+                          ^
+c:\Temp\320\320-e1-rattrapage-schaller-fabrice-emf\src\views\View.java:33: Fehler: Package javafx.stage ist nicht vorhanden
+import javafx.stage.Stage;
+                   ^
+c:\Temp\320\320-e1-rattrapage-schaller-fabrice-emf\src\views\View.java:36: Fehler: Symbol nicht gefunden
+public class View implements IViewForController, Initializable {
+                                                 ^
+  Symbol: Klasse Initializable
+c:\Temp\320\320-e1-rattrapage-schaller-fabrice-emf\src\views\View.java:39: Fehler: Symbol nicht gefunden
+    private Button btnChercherObservations;
+            ^
+  Symbol: Klasse Button
+  Ort: Klasse View
+c:\Temp\320\320-e1-rattrapage-schaller-fabrice-emf\src\views\View.java:42: Fehler: Symbol nicht gefunden
+    private Button btnEnregistrerObservation;
+            ^
+  Symbol: Klasse Button
+  Ort: Klasse View
+c:\Temp\320\320-e1-rattrapage-schaller-fabrice-emf\src\views\View.java:45: Fehler: Symbol nicht gefunden
+    private TextField txtflChercherObservations;
+            ^
+  Symbol: Klasse TextField
+  Ort: Klasse View
+c:\Temp\320\320-e1-rattrapage-schaller-fabrice-emf\src\views\View.java:48: Fehler: Symbol nicht gefunden
+    private TextField txtflLieu;
+            ^
+  Symbol: Klasse TextField
+  Ort: Klasse View
+c:\Temp\320\320-e1-rattrapage-schaller-fabrice-emf\src\views\View.java:51: Fehler: Symbol nicht gefunden
+    private TextField txtfAuteur;
+            ^
+  Symbol: Klasse TextField
+  Ort: Klasse View
+c:\Temp\320\320-e1-rattrapage-schaller-fabrice-emf\src\views\View.java:54: Fehler: Symbol nicht gefunden
+    private Label lblDateObservation;
+            ^
+  Symbol: Klasse Label
+  Ort: Klasse View
+c:\Temp\320\320-e1-rattrapage-schaller-fabrice-emf\src\views\View.java:57: Fehler: Symbol nicht gefunden
+    private Label lblEspeceObservation;
+            ^
+  Symbol: Klasse Label
+  Ort: Klasse View
+c:\Temp\320\320-e1-rattrapage-schaller-fabrice-emf\src\views\View.java:60: Fehler: Symbol nicht gefunden
+    private Label lblLieuObservation;
+            ^
+  Symbol: Klasse Label
+  Ort: Klasse View
+c:\Temp\320\320-e1-rattrapage-schaller-fabrice-emf\src\views\View.java:63: Fehler: Symbol nicht gefunden
+    private Label lblAuteurObservation;
+            ^
+  Symbol: Klasse Label
+  Ort: Klasse View
+c:\Temp\320\320-e1-rattrapage-schaller-fabrice-emf\src\views\View.java:66: Fehler: Symbol nicht gefunden
+    private Label lblNbrObservation;
+            ^
+  Symbol: Klasse Label
+  Ort: Klasse View
+c:\Temp\320\320-e1-rattrapage-schaller-fabrice-emf\src\views\View.java:69: Fehler: Symbol nicht gefunden
+    private ComboBox<String> cbbxNomCommun;
+            ^
+  Symbol: Klasse ComboBox
+  Ort: Klasse View
+c:\Temp\320\320-e1-rattrapage-schaller-fabrice-emf\src\views\View.java:72: Fehler: Symbol nicht gefunden
+    private ComboBox<String> cbbxFiltreParNomCommun;
+            ^
+  Symbol: Klasse ComboBox
+  Ort: Klasse View
+c:\Temp\320\320-e1-rattrapage-schaller-fabrice-emf\src\views\View.java:75: Fehler: Symbol nicht gefunden
+    private CheckBox chkbxFiltreParDate;
+            ^
+  Symbol: Klasse CheckBox
+  Ort: Klasse View
+c:\Temp\320\320-e1-rattrapage-schaller-fabrice-emf\src\views\View.java:78: Fehler: Symbol nicht gefunden
+    private CheckBox chkbxFiltreParNomCommun;
+            ^
+  Symbol: Klasse CheckBox
+  Ort: Klasse View
+c:\Temp\320\320-e1-rattrapage-schaller-fabrice-emf\src\views\View.java:81: Fehler: Symbol nicht gefunden
+    private DatePicker dtpckDate;
+            ^
+  Symbol: Klasse DatePicker
+  Ort: Klasse View
+c:\Temp\320\320-e1-rattrapage-schaller-fabrice-emf\src\views\View.java:84: Fehler: Symbol nicht gefunden
+    private DatePicker dtpckFiltreParDate;
+            ^
+  Symbol: Klasse DatePicker
+  Ort: Klasse View
+c:\Temp\320\320-e1-rattrapage-schaller-fabrice-emf\src\views\View.java:87: Fehler: Symbol nicht gefunden
+    private GridPane grdpnDetailEspece;
+            ^
+  Symbol: Klasse GridPane
+  Ort: Klasse View
+c:\Temp\320\320-e1-rattrapage-schaller-fabrice-emf\src\views\View.java:90: Fehler: Symbol nicht gefunden
+    private ImageView imgvEspece;
+            ^
+  Symbol: Klasse ImageView
+  Ort: Klasse View
+c:\Temp\320\320-e1-rattrapage-schaller-fabrice-emf\src\views\View.java:93: Fehler: Symbol nicht gefunden
+    private ImageView imgvRepartition;
+            ^
+  Symbol: Klasse ImageView
+  Ort: Klasse View
+c:\Temp\320\320-e1-rattrapage-schaller-fabrice-emf\src\views\View.java:96: Fehler: Symbol nicht gefunden
+    private Label lblEnvergure;
+            ^
+  Symbol: Klasse Label
+  Ort: Klasse View
+c:\Temp\320\320-e1-rattrapage-schaller-fabrice-emf\src\views\View.java:99: Fehler: Symbol nicht gefunden
+    private Label lblHabitat;
+            ^
+  Symbol: Klasse Label
+  Ort: Klasse View
+c:\Temp\320\320-e1-rattrapage-schaller-fabrice-emf\src\views\View.java:102: Fehler: Symbol nicht gefunden
+    private Label lblNom;
+            ^
+  Symbol: Klasse Label
+  Ort: Klasse View
+c:\Temp\320\320-e1-rattrapage-schaller-fabrice-emf\src\views\View.java:105: Fehler: Symbol nicht gefunden
+    private Label lblNomScientifique;
+            ^
+  Symbol: Klasse Label
+  Ort: Klasse View
+c:\Temp\320\320-e1-rattrapage-schaller-fabrice-emf\src\views\View.java:108: Fehler: Symbol nicht gefunden
+    private Label lblNombreDePontes;
+            ^
+  Symbol: Klasse Label
+  Ort: Klasse View
+c:\Temp\320\320-e1-rattrapage-schaller-fabrice-emf\src\views\View.java:111: Fehler: Symbol nicht gefunden
+    private Label lblNourriture;
+            ^
+  Symbol: Klasse Label
+  Ort: Klasse View
+c:\Temp\320\320-e1-rattrapage-schaller-fabrice-emf\src\views\View.java:114: Fehler: Symbol nicht gefunden
+    private Label lblPoids;
+            ^
+  Symbol: Klasse Label
+  Ort: Klasse View
+c:\Temp\320\320-e1-rattrapage-schaller-fabrice-emf\src\views\View.java:117: Fehler: Symbol nicht gefunden
+    private Label lblStatut;
+            ^
+  Symbol: Klasse Label
+  Ort: Klasse View
+c:\Temp\320\320-e1-rattrapage-schaller-fabrice-emf\src\views\View.java:120: Fehler: Symbol nicht gefunden
+    private Label lblTaille;
+            ^
+  Symbol: Klasse Label
+  Ort: Klasse View
+c:\Temp\320\320-e1-rattrapage-schaller-fabrice-emf\src\views\View.java:123: Fehler: Symbol nicht gefunden
+    private TextArea txtaDescription;
+            ^
+  Symbol: Klasse TextArea
+  Ort: Klasse View
+c:\Temp\320\320-e1-rattrapage-schaller-fabrice-emf\src\views\View.java:126: Fehler: Symbol nicht gefunden
+    private ListView<EspeceDetail> lstvEspeces;
+            ^
+  Symbol: Klasse ListView
+  Ort: Klasse View
+c:\Temp\320\320-e1-rattrapage-schaller-fabrice-emf\src\views\View.java:129: Fehler: Symbol nicht gefunden
+    private ListView<Observation> lstvObservations;
+            ^
+  Symbol: Klasse ListView
+  Ort: Klasse View
+c:\Temp\320\320-e1-rattrapage-schaller-fabrice-emf\src\views\View.java:246: Fehler: Symbol nicht gefunden
+    void actionEnregistrerObservation(ActionEvent event) {
+                                      ^
+  Symbol: Klasse ActionEvent
+  Ort: Klasse View
+c:\Temp\320\320-e1-rattrapage-schaller-fabrice-emf\src\views\View.java:266: Fehler: Symbol nicht gefunden
+    void actionTriParNomCommun(ActionEvent event) {
+                               ^
+  Symbol: Klasse ActionEvent
+  Ort: Klasse View
+c:\Temp\320\320-e1-rattrapage-schaller-fabrice-emf\src\views\View.java:271: Fehler: Symbol nicht gefunden
+    void actionTriParNomScientifique(ActionEvent event) {
+                                     ^
+  Symbol: Klasse ActionEvent
+  Ort: Klasse View
+c:\Temp\320\320-e1-rattrapage-schaller-fabrice-emf\src\views\View.java:276: Fehler: Symbol nicht gefunden
+    void actionTriParPonte(ActionEvent event) {
+                           ^
+  Symbol: Klasse ActionEvent
+  Ort: Klasse View
+c:\Temp\320\320-e1-rattrapage-schaller-fabrice-emf\src\views\View.java:282: Fehler: Symbol nicht gefunden
+    void actionChangeDateFiltre(ActionEvent event) {
+                                ^
+  Symbol: Klasse ActionEvent
+  Ort: Klasse View
+c:\Temp\320\320-e1-rattrapage-schaller-fabrice-emf\src\views\View.java:289: Fehler: Symbol nicht gefunden
+    void actionChangeNomFiltre(ActionEvent event) {
+                               ^
+  Symbol: Klasse ActionEvent
+  Ort: Klasse View
+c:\Temp\320\320-e1-rattrapage-schaller-fabrice-emf\src\views\View.java:296: Fehler: Symbol nicht gefunden
+    void actionFiltreObservationParNom(ActionEvent event) {
+                                       ^
+  Symbol: Klasse ActionEvent
+  Ort: Klasse View
+c:\Temp\320\320-e1-rattrapage-schaller-fabrice-emf\src\views\View.java:301: Fehler: Symbol nicht gefunden
+    void actionFiltreObservationsParDate(ActionEvent event) {
+                                         ^
+  Symbol: Klasse ActionEvent
+  Ort: Klasse View
+c:\Temp\320\320-e1-rattrapage-schaller-fabrice-emf\src\views\View.java:38: Fehler: Symbol nicht gefunden
+    @FXML
+     ^
+  Symbol: Klasse FXML
+  Ort: Klasse View
+c:\Temp\320\320-e1-rattrapage-schaller-fabrice-emf\src\views\View.java:41: Fehler: Symbol nicht gefunden
+    @FXML
+     ^
+  Symbol: Klasse FXML
+  Ort: Klasse View
+c:\Temp\320\320-e1-rattrapage-schaller-fabrice-emf\src\views\View.java:44: Fehler: Symbol nicht gefunden
+    @FXML
+     ^
+  Symbol: Klasse FXML
+  Ort: Klasse View
+c:\Temp\320\320-e1-rattrapage-schaller-fabrice-emf\src\views\View.java:47: Fehler: Symbol nicht gefunden
+    @FXML
+     ^
+  Symbol: Klasse FXML
+  Ort: Klasse View
+c:\Temp\320\320-e1-rattrapage-schaller-fabrice-emf\src\views\View.java:50: Fehler: Symbol nicht gefunden
+    @FXML
+     ^
+  Symbol: Klasse FXML
+  Ort: Klasse View
+c:\Temp\320\320-e1-rattrapage-schaller-fabrice-emf\src\views\View.java:53: Fehler: Symbol nicht gefunden
+    @FXML
+     ^
+  Symbol: Klasse FXML
+  Ort: Klasse View
+c:\Temp\320\320-e1-rattrapage-schaller-fabrice-emf\src\views\View.java:56: Fehler: Symbol nicht gefunden
+    @FXML
+     ^
+  Symbol: Klasse FXML
+  Ort: Klasse View
+c:\Temp\320\320-e1-rattrapage-schaller-fabrice-emf\src\views\View.java:59: Fehler: Symbol nicht gefunden
+    @FXML
+     ^
+  Symbol: Klasse FXML
+  Ort: Klasse View
+c:\Temp\320\320-e1-rattrapage-schaller-fabrice-emf\src\views\View.java:62: Fehler: Symbol nicht gefunden
+    @FXML
+     ^
+  Symbol: Klasse FXML
+  Ort: Klasse View
+c:\Temp\320\320-e1-rattrapage-schaller-fabrice-emf\src\views\View.java:65: Fehler: Symbol nicht gefunden
+    @FXML
+     ^
+  Symbol: Klasse FXML
+  Ort: Klasse View
+c:\Temp\320\320-e1-rattrapage-schaller-fabrice-emf\src\views\View.java:68: Fehler: Symbol nicht gefunden
+    @FXML
+     ^
+  Symbol: Klasse FXML
+  Ort: Klasse View
+c:\Temp\320\320-e1-rattrapage-schaller-fabrice-emf\src\views\View.java:71: Fehler: Symbol nicht gefunden
+    @FXML
+     ^
+  Symbol: Klasse FXML
+  Ort: Klasse View
+c:\Temp\320\320-e1-rattrapage-schaller-fabrice-emf\src\views\View.java:74: Fehler: Symbol nicht gefunden
+    @FXML
+     ^
+  Symbol: Klasse FXML
+  Ort: Klasse View
+c:\Temp\320\320-e1-rattrapage-schaller-fabrice-emf\src\views\View.java:77: Fehler: Symbol nicht gefunden
+    @FXML
+     ^
+  Symbol: Klasse FXML
+  Ort: Klasse View
+c:\Temp\320\320-e1-rattrapage-schaller-fabrice-emf\src\views\View.java:80: Fehler: Symbol nicht gefunden
+    @FXML
+     ^
+  Symbol: Klasse FXML
+  Ort: Klasse View
+c:\Temp\320\320-e1-rattrapage-schaller-fabrice-emf\src\views\View.java:83: Fehler: Symbol nicht gefunden
+    @FXML
+     ^
+  Symbol: Klasse FXML
+  Ort: Klasse View
+c:\Temp\320\320-e1-rattrapage-schaller-fabrice-emf\src\views\View.java:86: Fehler: Symbol nicht gefunden
+    @FXML
+     ^
+  Symbol: Klasse FXML
+  Ort: Klasse View
+c:\Temp\320\320-e1-rattrapage-schaller-fabrice-emf\src\views\View.java:89: Fehler: Symbol nicht gefunden
+    @FXML
+     ^
+  Symbol: Klasse FXML
+  Ort: Klasse View
+c:\Temp\320\320-e1-rattrapage-schaller-fabrice-emf\src\views\View.java:92: Fehler: Symbol nicht gefunden
+    @FXML
+     ^
+  Symbol: Klasse FXML
+  Ort: Klasse View
+c:\Temp\320\320-e1-rattrapage-schaller-fabrice-emf\src\views\View.java:95: Fehler: Symbol nicht gefunden
+    @FXML
+     ^
+  Symbol: Klasse FXML
+  Ort: Klasse View
+c:\Temp\320\320-e1-rattrapage-schaller-fabrice-emf\src\views\View.java:98: Fehler: Symbol nicht gefunden
+    @FXML
+     ^
+  Symbol: Klasse FXML
+  Ort: Klasse View
+c:\Temp\320\320-e1-rattrapage-schaller-fabrice-emf\src\views\View.java:101: Fehler: Symbol nicht gefunden
+    @FXML
+     ^
+  Symbol: Klasse FXML
+  Ort: Klasse View
+c:\Temp\320\320-e1-rattrapage-schaller-fabrice-emf\src\views\View.java:104: Fehler: Symbol nicht gefunden
+    @FXML
+     ^
+  Symbol: Klasse FXML
+  Ort: Klasse View
+c:\Temp\320\320-e1-rattrapage-schaller-fabrice-emf\src\views\View.java:107: Fehler: Symbol nicht gefunden
+    @FXML
+     ^
+  Symbol: Klasse FXML
+  Ort: Klasse View
+c:\Temp\320\320-e1-rattrapage-schaller-fabrice-emf\src\views\View.java:110: Fehler: Symbol nicht gefunden
+    @FXML
+     ^
+  Symbol: Klasse FXML
+  Ort: Klasse View
+c:\Temp\320\320-e1-rattrapage-schaller-fabrice-emf\src\views\View.java:113: Fehler: Symbol nicht gefunden
+    @FXML
+     ^
+  Symbol: Klasse FXML
+  Ort: Klasse View
+c:\Temp\320\320-e1-rattrapage-schaller-fabrice-emf\src\views\View.java:116: Fehler: Symbol nicht gefunden
+    @FXML
+     ^
+  Symbol: Klasse FXML
+  Ort: Klasse View
+c:\Temp\320\320-e1-rattrapage-schaller-fabrice-emf\src\views\View.java:119: Fehler: Symbol nicht gefunden
+    @FXML
+     ^
+  Symbol: Klasse FXML
+  Ort: Klasse View
+c:\Temp\320\320-e1-rattrapage-schaller-fabrice-emf\src\views\View.java:122: Fehler: Symbol nicht gefunden
+    @FXML
+     ^
+  Symbol: Klasse FXML
+  Ort: Klasse View
+c:\Temp\320\320-e1-rattrapage-schaller-fabrice-emf\src\views\View.java:125: Fehler: Symbol nicht gefunden
+    @FXML
+     ^
+  Symbol: Klasse FXML
+  Ort: Klasse View
+c:\Temp\320\320-e1-rattrapage-schaller-fabrice-emf\src\views\View.java:128: Fehler: Symbol nicht gefunden
+    @FXML
+     ^
+  Symbol: Klasse FXML
+  Ort: Klasse View
+c:\Temp\320\320-e1-rattrapage-schaller-fabrice-emf\src\views\View.java:245: Fehler: Symbol nicht gefunden
+    @FXML
+     ^
+  Symbol: Klasse FXML
+  Ort: Klasse View
+c:\Temp\320\320-e1-rattrapage-schaller-fabrice-emf\src\views\View.java:265: Fehler: Symbol nicht gefunden
+    @FXML
+     ^
+  Symbol: Klasse FXML
+  Ort: Klasse View
+c:\Temp\320\320-e1-rattrapage-schaller-fabrice-emf\src\views\View.java:270: Fehler: Symbol nicht gefunden
+    @FXML
+     ^
+  Symbol: Klasse FXML
+  Ort: Klasse View
+c:\Temp\320\320-e1-rattrapage-schaller-fabrice-emf\src\views\View.java:275: Fehler: Symbol nicht gefunden
+    @FXML
+     ^
+  Symbol: Klasse FXML
+  Ort: Klasse View
+c:\Temp\320\320-e1-rattrapage-schaller-fabrice-emf\src\views\View.java:281: Fehler: Symbol nicht gefunden
+    @FXML
+     ^
+  Symbol: Klasse FXML
+  Ort: Klasse View
+c:\Temp\320\320-e1-rattrapage-schaller-fabrice-emf\src\views\View.java:288: Fehler: Symbol nicht gefunden
+    @FXML
+     ^
+  Symbol: Klasse FXML
+  Ort: Klasse View
+c:\Temp\320\320-e1-rattrapage-schaller-fabrice-emf\src\views\View.java:295: Fehler: Symbol nicht gefunden
+    @FXML
+     ^
+  Symbol: Klasse FXML
+  Ort: Klasse View
+c:\Temp\320\320-e1-rattrapage-schaller-fabrice-emf\src\views\View.java:300: Fehler: Symbol nicht gefunden
+    @FXML
+     ^
+  Symbol: Klasse FXML
+  Ort: Klasse View
+100 Fehler
+
+

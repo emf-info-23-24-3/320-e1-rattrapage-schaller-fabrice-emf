@@ -11,4 +11,3 @@ public class Population {
         return population2013_2016;
     }
 }
-
