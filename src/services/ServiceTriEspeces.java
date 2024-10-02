@@ -1,14 +1,15 @@
 package services;
 
 import java.util.ArrayList;
-
+import java.util.Collections;
+import java.util.Comparator;
 
 import models.EspeceDetail;
 
 public class ServiceTriEspeces {
 
     /**
-     * Trie la listeDesEpspece par ordre alphabétiquer du nom commun, sans modifier
+     * Trie la listeDesEspece par ordre alphabétiquer du nom commun, sans modifier
      * l'ordre de la liste passée en paramètre
      * 
      * @param lstEspeceDetails la liste des espèces à trier.
@@ -16,17 +17,15 @@ public class ServiceTriEspeces {
      * @return une nouvelle liste des espèces triées
      */
     public ArrayList<EspeceDetail> getEspecesTrieesParNomCommun(ArrayList<EspeceDetail> lstEspeceDetails) {
-        //
-        //               )        (                 ) (           (         (
-        //            ( /(   *   ))\ )        (  ( /( )\ )        )\ )  (   )\ )
-        //      (   ( )\())` )  /(()/((       )\ )\()|()/(  (    (()/(  )\ (()/(
-        //      )\  )((_)\  ( )(_))(_))\    (((_|(_)\ /(_)) )\    /(_)|((_) /(_))
-        //     ((_)((_)((_)(_(_()|_))((_)   )\___ ((_|_))_ ((_)  (_)) )\___(_))
-        //     __   _____ _____ ___ ___    ___ ___  ___  ___   ___ ___ ___   _
-        //     \ \ / / _ \_   _| _ \ __|  / __/ _ \|   \| __| |_ _/ __|_ _| | |
-        //      \ V / (_) || | |   / _|  | (_| (_) | |) | _|   | | (__ | |  |_|
-        //       \_/ \___/ |_| |_|_\___|  \___\___/|___/|___| |___\___|___| (_)
-        //
+        ArrayList<EspeceDetail> newList = new ArrayList<>(lstEspeceDetails);
+
+        Collections.sort(newList, new Comparator<EspeceDetail>() {
+            @Override
+            public int compare(EspeceDetail especeDetail1, EspeceDetail especeDetail2) {
+                return especeDetail1.getNomCommun().compareTo(especeDetail2.getNomCommun());
+            }
+        });
+        return newList;
     }
 
     /**
@@ -39,17 +38,15 @@ public class ServiceTriEspeces {
      * @return une nouvelle liste des espèces triées
      */
     public ArrayList<EspeceDetail> getEspecesTrieesParNomScientifique(ArrayList<EspeceDetail> lstEspeceDetails) {
-        //
-        //               )        (                 ) (           (         (
-        //            ( /(   *   ))\ )        (  ( /( )\ )        )\ )  (   )\ )
-        //      (   ( )\())` )  /(()/((       )\ )\()|()/(  (    (()/(  )\ (()/(
-        //      )\  )((_)\  ( )(_))(_))\    (((_|(_)\ /(_)) )\    /(_)|((_) /(_))
-        //     ((_)((_)((_)(_(_()|_))((_)   )\___ ((_|_))_ ((_)  (_)) )\___(_))
-        //     __   _____ _____ ___ ___    ___ ___  ___  ___   ___ ___ ___   _
-        //     \ \ / / _ \_   _| _ \ __|  / __/ _ \|   \| __| |_ _/ __|_ _| | |
-        //      \ V / (_) || | |   / _|  | (_| (_) | |) | _|   | | (__ | |  |_|
-        //       \_/ \___/ |_| |_|_\___|  \___\___/|___/|___| |___\___|___| (_)
-        //
+        ArrayList<EspeceDetail> newList = new ArrayList<>(lstEspeceDetails);
+
+        Collections.sort(newList, new Comparator<EspeceDetail>() {
+            @Override
+            public int compare(EspeceDetail especeDetail1, EspeceDetail especeDetail2) {
+                return especeDetail1.getNomScientifique().compareTo(especeDetail2.getNomScientifique());
+            }
+        });
+        return newList;
     }
 
     /**
@@ -61,15 +58,22 @@ public class ServiceTriEspeces {
      * @return une nouvelle liste des espèces triées
      */
     public ArrayList<EspeceDetail> getEspecesTrieesParPonte(ArrayList<EspeceDetail> lstEspeceDetails) {
-        //
-        //               )        (                 ) (           (         (
-        //            ( /(   *   ))\ )        (  ( /( )\ )        )\ )  (   )\ )
-        //      (   ( )\())` )  /(()/((       )\ )\()|()/(  (    (()/(  )\ (()/(
-        //      )\  )((_)\  ( )(_))(_))\    (((_|(_)\ /(_)) )\    /(_)|((_) /(_))
-        //     ((_)((_)((_)(_(_()|_))((_)   )\___ ((_|_))_ ((_)  (_)) )\___(_))
-        //     __   _____ _____ ___ ___    ___ ___  ___  ___   ___ ___ ___   _
-        //     \ \ / / _ \_   _| _ \ __|  / __/ _ \|   \| __| |_ _/ __|_ _| | |
-        //      \ V / (_) || | |   / _|  | (_| (_) | |) | _|   | | (__ | |  |_|
-        //       \_/ \___/ |_| |_|_\___|  \___\___/|___/|___| |___\___|___| (_)
-        //
+        ArrayList<EspeceDetail> newList = new ArrayList<>(lstEspeceDetails);
+
+        Collections.sort(newList, new Comparator<EspeceDetail>() {
+            @Override
+            public int compare(EspeceDetail especeDetail1, EspeceDetail especeDetail2) {
+                int result = especeDetail1.getCaracteristiques().getNombreDePontes()
+                        .compareTo(especeDetail2.getCaracteristiques().getNombreDePontes());
+
+                if (result == 0) {
+                    result = especeDetail1.getCaracteristiques().getDureeSejourNidJours()
+                            .compareTo(especeDetail2.getCaracteristiques().getDureeSejourNidJours());
+                }
+
+                return result;
+            }
+        });
+        return newList;
+    }
 }

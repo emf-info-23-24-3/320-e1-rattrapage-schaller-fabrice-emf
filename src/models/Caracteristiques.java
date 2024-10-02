@@ -18,9 +18,9 @@ public class Caracteristiques {
     private String statutCH;
 
     public Caracteristiques(String groupe, String tailleCm, String envergureCm, String poidsG, String nourriture,
-                            String habitat, String comportementMigrateur, String siteDeNidification, int dureeIncubationJours,
-                            int nombreDePontes, int nombreOeufs, int dureeSejourNidJours, String ageMaximalEURING,
-                            String ageMaximalCH, String statutCH) {
+            String habitat, String comportementMigrateur, String siteDeNidification, int dureeIncubationJours,
+            int nombreDePontes, int nombreOeufs, int dureeSejourNidJours, String ageMaximalEURING,
+            String ageMaximalCH, String statutCH) {
         this.groupe = groupe;
         this.tailleCm = tailleCm;
         this.envergureCm = envergureCm;
@@ -99,6 +99,5 @@ public class Caracteristiques {
     }
 
     // Getters pour chaque attribut
-    
-}
 
+}

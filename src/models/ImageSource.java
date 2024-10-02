@@ -25,4 +25,3 @@ public class ImageSource {
         this.repartitionImagePath = repartitionImagePath;
     }
 }
-

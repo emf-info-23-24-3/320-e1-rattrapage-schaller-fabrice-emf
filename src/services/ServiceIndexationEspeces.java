@@ -1,26 +1,19 @@
 package services;
 
 import java.util.ArrayList;
+import java.util.TreeSet;
 
 import models.EspeceDetail;
 
 public class ServiceIndexationEspeces {
 
+    private TreeSet<String> lstNomCommun;
+
     /**
      * Constructeur, initialise les attributs de la classe.
      */
     public ServiceIndexationEspeces() {
-        //
-        //               )        (                 ) (           (         (
-        //            ( /(   *   ))\ )        (  ( /( )\ )        )\ )  (   )\ )
-        //      (   ( )\())` )  /(()/((       )\ )\()|()/(  (    (()/(  )\ (()/(
-        //      )\  )((_)\  ( )(_))(_))\    (((_|(_)\ /(_)) )\    /(_)|((_) /(_))
-        //     ((_)((_)((_)(_(_()|_))((_)   )\___ ((_|_))_ ((_)  (_)) )\___(_))
-        //     __   _____ _____ ___ ___    ___ ___  ___  ___   ___ ___ ___   _
-        //     \ \ / / _ \_   _| _ \ __|  / __/ _ \|   \| __| |_ _/ __|_ _| | |
-        //      \ V / (_) || | |   / _|  | (_| (_) | |) | _|   | | (__ | |  |_|
-        //       \_/ \___/ |_| |_|_\___|  \___\___/|___/|___| |___\___|___| (_)
-        //
+        lstNomCommun = new TreeSet<>();
     }
 
     /**
@@ -30,17 +23,11 @@ public class ServiceIndexationEspeces {
      * @param listEspeceDetails la liste des espèces à indexer
      */
     public void indexerLesEspeces(ArrayList<EspeceDetail> listEspeces) {
-        //
-        //               )        (                 ) (           (         (
-        //            ( /(   *   ))\ )        (  ( /( )\ )        )\ )  (   )\ )
-        //      (   ( )\())` )  /(()/((       )\ )\()|()/(  (    (()/(  )\ (()/(
-        //      )\  )((_)\  ( )(_))(_))\    (((_|(_)\ /(_)) )\    /(_)|((_) /(_))
-        //     ((_)((_)((_)(_(_()|_))((_)   )\___ ((_|_))_ ((_)  (_)) )\___(_))
-        //     __   _____ _____ ___ ___    ___ ___  ___  ___   ___ ___ ___   _
-        //     \ \ / / _ \_   _| _ \ __|  / __/ _ \|   \| __| |_ _/ __|_ _| | |
-        //      \ V / (_) || | |   / _|  | (_| (_) | |) | _|   | | (__ | |  |_|
-        //       \_/ \___/ |_| |_|_\___|  \___\___/|___/|___| |___\___|___| (_)
-        //
+        for (EspeceDetail especeDetail : listEspeces) {
+            if (especeDetail.getNomCommun() != null) {
+                lstNomCommun.add(especeDetail.getNomCommun());
+            }
+        }
     }
 
     /**
@@ -50,16 +37,6 @@ public class ServiceIndexationEspeces {
      * @return la liste précitée.
      */
     public ArrayList<String> getlstNomCommun() {
-        //
-        //               )        (                 ) (           (         (
-        //            ( /(   *   ))\ )        (  ( /( )\ )        )\ )  (   )\ )
-        //      (   ( )\())` )  /(()/((       )\ )\()|()/(  (    (()/(  )\ (()/(
-        //      )\  )((_)\  ( )(_))(_))\    (((_|(_)\ /(_)) )\    /(_)|((_) /(_))
-        //     ((_)((_)((_)(_(_()|_))((_)   )\___ ((_|_))_ ((_)  (_)) )\___(_))
-        //     __   _____ _____ ___ ___    ___ ___  ___  ___   ___ ___ ___   _
-        //     \ \ / / _ \_   _| _ \ __|  / __/ _ \|   \| __| |_ _/ __|_ _| | |
-        //      \ V / (_) || | |   / _|  | (_| (_) | |) | _|   | | (__ | |  |_|
-        //       \_/ \___/ |_| |_|_\___|  \___\___/|___/|___| |___\___|___| (_)
-        //
+        return new ArrayList<>(lstNomCommun);
     }
 }

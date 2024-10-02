@@ -22,6 +22,5 @@ public class StatutDeMenace {
     public boolean isEspecePrioritairePourConservation() {
         return especePrioritairePourConservation;
     }
-  
-}
 
+}
